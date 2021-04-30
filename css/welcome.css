@@ -42,11 +42,7 @@
   width: 500px;
   height: 500px;
   background-image: url('../img/main.png');
-  background-size: cover;
-  /*
-  자료 출처
-  https://commons.wikimedia.org/wiki/File:Alarms_%26_Clock_icon.png
-  */
+  background-size: auto;
 }
 .time-logo + div {
   font-weight: lighter;
