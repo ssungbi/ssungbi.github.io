@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="survival" content="이수민이 만든 자본주의에서 살아남기 심리테스트">
+    <title>자본주의에서 살아남기</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- kakao link js -->
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- psychoTestScript js-->
+    <script src="/js/psychoTestScript.js"></script>
+
+
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMMR8J5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!-- <div class="top-logo">
+		<img src="http://nitpickimg.cafe24.com/comm/logo/logo-icbox-seoulstore.svg" class="logo-top">
+	</div> -->
+	<div class="popup-bg" id="event_popup" style="display: none;">
+			<div class="popup">
+					<img src="http://nitpickimg.cafe24.com/psy/6/icn_delete_circle_gray_large.svg" class="exit" id="btn_event_close">
+					<img src="http://nitpickimg.cafe24.com/psy/6/img_logo.jpg">
+					<h3>🎉 CONGRATS! 🎉</h3> <!-- 20201202 수정 -->
+					<p> <!-- 20201202 수정 -->
+							<span id="event_popup_msg"></span>를<br>
+							입력해주시면 현대글로비스에서<br>
+							🎁 준비한 선물 🎁을 보내 드립니다.
+					</p>
+					<p class="tag">
+							#NO사기 #찐임 #팝업끄면기회없음
+					</p>
+					<div class="con-title"> <!-- 20201202 수정 -->
+							<button class="title-start-btn" onclick="window.open('https://forms.gle/9zY8eXeU9cjJauHY6')">번호 입력하러 가기</button>
+					</div>
+			</div>
+	</div>
+	<!-- Swiper -->
+	<div class="swiper-container con swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+		<div class="swiper-wrapper" id="swiper-wrapper-6243ffa6f5e210dc9" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+			<div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 17" style="width: 460px;">
+				<!-- 시작화면 -->
+				<div class="con-title">
+					<h1>#직장 캐릭터 테스트</h1>
+					<p>직장 생태계에서 나는 어떤 유형일까?</p>
+		      <img src="http://nitpickimg.cafe24.com/psy/6/img_main_title.svg">
+		      <button class="title-start-btn swiper-next btn-normal" id="btn_start" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-6243ffa6f5e210dc9" aria-disabled="false">테스트 시작!</button>
+				</div>
+			</div>
+
+			
+				<div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q1.
+						</h3>
+						<p class="quest-process">
+						1/15
+						</p>
+					</div>
+					<h4 class="quest-title">당신이 추진하던 일이 생각지도 못한 난관에 부딪혔다! 중간보고까지 3일이 남은 상태. 당신의 선택은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_1.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="1" value="1">다른 구성원이나 조직장에게 상황을 알리고 조언을 구한다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="1" value="2">난관을 어떻게 해결할 수 있을지 신중하게 고민한다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="3 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q2.
+						</h3>
+						<p class="quest-process">
+						2/15
+						</p>
+					</div>
+					<h4 class="quest-title">사무실에서 당신의 유형에 더 가까운 것은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_2.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="2" value="1">주변인들의 생일, 특징 등을 잘 외운다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="2" value="2">물건을 어디에 두었는지 종종 헷갈린다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="4 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q3.
+						</h3>
+						<p class="quest-process">
+						3/15
+						</p>
+					</div>
+					<h4 class="quest-title">상사로부터 꾸지람을 들었을 때 당신은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_3.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="3" value="1">이런 결과밖에 못 낸 자신에게 화가 난다(화난 표정)</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="3" value="2">주변 사람들이 나를 어떻게 생각할까 걱정한다. (걱정하는 표정)</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="5 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q4.
+						</h3>
+						<p class="quest-process">
+						4/15
+						</p>
+					</div>
+					<h4 class="quest-title">새로운 업무를 맡게될 때 당신이 선호하는 업무는?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_4.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="4" value="1">기존부터 이어져 오던 운영 업무</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="4" value="2">새롭게 시작하는 프로젝트성 업무 </div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="6 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q5.
+						</h3>
+						<p class="quest-process">
+						5/15
+						</p>
+					</div>
+					<h4 class="quest-title">팀원이 훌륭한 성과를 냈을 때, 당신의 스타일에 더 가까운 것은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_5.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="5" value="1">"(당!당) (동네 사람들~ 여기 좀 보세요~) 이번에 프로젝트 아주 잘했어!" 동네방네 자랑하는 스타일</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="5" value="2">"(수줍..) (머쓱한 목소리로) 크흠 수고했어~" 말하지 않아도 알아요. 츤데레 스타일</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="7 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q6.
+						</h3>
+						<p class="quest-process">
+						6/15
+						</p>
+					</div>
+					<h4 class="quest-title">우리 팀 업무와 관련된 새로운 트렌드를 기사로 접했다. '공유하기' 버튼을 누른 당신의 선택은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_6.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="6" value="1">팀원들과 함께 보도록 공유한다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="6" value="2">나에게 메일로 보내 개인적으로 보관한다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="8 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q7.
+						</h3>
+						<p class="quest-process">
+						7/15
+						</p>
+					</div>
+					<h4 class="quest-title">만약 두 명의 상사가 있다면, (그나마) 더 같이 일하고 싶은 유형은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_7.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="7" value="1">"이 건은 이렇게, 아니아니 그게 아니지." 지나치게 세세한 방향까지 간섭하는 상사</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="7" value="2">"너 하고 싶은 거 다 해봐! 알아서~!" 지나치게 자유를 주는 상사</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="9 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q8.
+						</h3>
+						<p class="quest-process">
+						8/15
+						</p>
+					</div>
+					<h4 class="quest-title">새로운 후임이 들어왔을 때, 당신의 업무 지시 스타일은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_8.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="8" value="1">한 번에 이해되도록, 논리적이고 구체적으로 설명한다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="8" value="2">그때그때 상황에 맞춰 친절히 알려준다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="10 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q9.
+						</h3>
+						<p class="quest-process">
+						9/15
+						</p>
+					</div>
+					<h4 class="quest-title">새로 맡게 된 업무의 프로세스 중 이해가 가지 않는 부분이 있을 때, 당신의 행동은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_9.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="9" value="1">짜여진 규칙과 체계에는 이유가 있다고 생각하고 따른다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="9" value="2">기존 규칙과는 다르게 프로세스를 조금씩 바꿔본다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="11 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q10.
+						</h3>
+						<p class="quest-process">
+						10/15
+						</p>
+					</div>
+					<h4 class="quest-title">사무실에서 큰 스트레스를 받는 일이 생겼을 때 당신의 행동은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_10.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="10" value="1">자리에서 일어나 카페를 가거나 바깥 공기를 쐬며 머리를 식힌다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="10" value="2">자리에서 한숨을 크게 쉬면서 동료들과 상황을 공유한다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="12 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q11.
+						</h3>
+						<p class="quest-process">
+						11/15
+						</p>
+					</div>
+					<h4 class="quest-title">바빠보이는 팀장님이 급하게 지시한 업무, 사소한 부분이지만 이해가 가지 않는다. 당신의 행동은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_11.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="11" value="1">팀장님께 이해가 가지 않는 부분을 직접 물어본 후 진행한다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="11" value="2">우선 내가 이해한 대로 빠르게 업무를 완료하여 보고한다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="13 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q12.
+						</h3>
+						<p class="quest-process">
+						12/15
+						</p>
+					</div>
+					<h4 class="quest-title">지금 이 테스트를 하면서 당신은,</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_12.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="12" value="1">별 생각없이 참여한다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="12" value="2">이 테스트의 원리는 무엇일까 생각해본다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="14 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q13.
+						</h3>
+						<p class="quest-process">
+						13/15
+						</p>
+					</div>
+					<h4 class="quest-title">회사 내에서 솔직하게 당신의 유형은,</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_13.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="13" value="1">상사에게 갑자기 칭찬받으면 어색..하다.</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="13" value="2">동료들 사이에서 성격이 부드럽고 싹싹하다고들 한다.</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="15 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q14.
+						</h3>
+						<p class="quest-process">
+						14/15
+						</p>
+					</div>
+					<h4 class="quest-title">새로운 프로젝트를 맡게 되었다. 당신이 주로 의지하는 것은?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_14.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="14" value="1">이전의 성공 경험 데이터</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="14" value="2">현재의 직감 및 트렌드</div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+				<div class="swiper-slide" role="group" aria-label="16 / 17" style="width: 460px;">
+					<div class="con-quest">
+					<div class="nav">
+						<h3 class="quest-number">
+						Q15.
+						</h3>
+						<p class="quest-process">
+						15/15
+						</p>
+					</div>
+					<h4 class="quest-title">고객사와 통화 후 화가 나면 전화기를 세게 던져 모두가 무서워하는 팀원이 있다. 솔직한 당신은 그에게 피드백을 뭐라고 남길까?</h4>
+					<!-- 0417_위치변경 및 스타일 변경, class 추가 -->
+					<img src="http://nitpickimg.cafe24.com/psy/6/question/img_q_15.svg" style="display: block; margin: 5% auto;" class="quest-img">
+				<div class="option">
+
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="15" value="1">"전화기를 세게 내려놓는 모습이 다른 팀원들에게 압박감을 줍니다. 이 부분을 고치시면 팀원들이 OO님께 좀 더 스스럼없이 다가갈 수 있고, 팀 분위기도 더 밝아질 것 같습니다."</div>
+				
+					<div class="quest-option option1 quest-answer content-align-center" id="15" value="2">"사무실에서 전화기를 던지는 모습이 불쾌합니다. 다른 사람 입장도 생각해가면서 합시다" </div>
+				
+				</div>
+
+			</div>
+			</div>
+			
+
+			<div class="swiper-slide" role="group" aria-label="17 / 17" style="width: 460px;">
+				<!-- 분석화면 -->
+
+				<div class="con-analysis">
+						<h3>분석 중 입니다...</h3>
+						<p> <!-- 20201208 수정 -->
+							#직장 내 인물 유형 테스트는<br> 현대글로비스 라이프스타일 가이드북과 <br>닛픽의 MBTI 테스트를 바탕으로 만들어졌습니다. <br><br>
+							이제, 나의 직장 내 인물 유형을 확인해보세요!
+						</p>
+						<button class="show-result-btn" style="display: none;">
+								결과 보러가기
+						</button>
+				</div>
+			</div>
+		</div>
+		<!-- 결과화면 -->
+		<div class="result-screen" style="display: none;">
+			<div class="fin">
+				<div class="con-my">
+					<img src="http://nitpickimg.cafe24.com/psy/6/img_logo.jpg" class="logo">
+            <div class="my-img-cover">
+							  <!-- MBTI 결과 이미지 -->
+                <img src="" class="result-main">
+            </div>
+            <h2 id="result_name">
+							<!-- 결과 이름 -->
+            </h2>
+						<h3 id="result_title">
+							<!-- 결과 타이틀 -->
+            </h3>
+            <div class="percent" id="result_rate_area">
+                <div>
+                    <h4>주요 출몰지역</h4>
+                    <p id="result_place"></p>
+                </div>
+                <div>
+                    <h4 id="result_total_count">00명 중</h4>
+                    <p id="result_rate">00%</p>
+                </div>
+            </div>
+            <img src="http://nitpickimg.cafe24.com/psy/6/img_line.jpg" class="line">
+						<p id="result_msg">
+                <!-- 결과 메세지 -->
+            </p>
+
+            <div class="feedback" id="result_feedback_area">
+                <h3 id="result_feedback_title">성장을 위한 피드백</h3>
+                <p id="result_feedback">
+                </p>
+								<div id="result_feedback_bg" class="feedback-bg"></div>
+            </div>
+        </div>
+				<div class="other">
+            <div class="good">
+                <p>공생관계</p>
+                <img src="http://nitpickimg.cafe24.com/psy/6/img_line.jpg" class="line">
+                <img id="same_type_img" src="" class="img">
+                <h3 id="same_type_name"></h3>
+            </div>
+            <div class="bad">
+                <p>천적</p>
+                <img src="http://nitpickimg.cafe24.com/psy/6/img_line.jpg" class="line">
+                <img id="other_type_img" src="" class="img">
+                <h3 id="other_type_name"></h3>
+            </div>
+        </div>
+
+        <!-- 20201202 수정 -->
+        <p style="text-align: center; margin-bottom: 8px;">이 테스트가 만들어진 배경이 궁금하다면?</p>
+        <a href="https://glovisculture.wixsite.com/lifestyle-mob" target="_blank"><button class="web-link">현대글로비스 라이프스타일<br>가이드북 바로가기</button>
+				</a>
+				<input type="hidden" id="result_share_link" value="">
+				<input type="hidden" id="result_share_logid" value="">
+        <div style="background-color: #F4F4F4; padding: 16px 0px;">
+            <div class="sns-link">
+                <p>테스트 결과 공유하기</p>
+                <div class="sns-link-nall">
+                    <img src="http://nitpickimg.cafe24.com/comm/icon/logo_kakao.svg" class="kakao" id="kakao-link-btn">
+                    <img src="http://nitpickimg.cafe24.com/comm/icon/logo_facebook.svg" class="facebook" id="fb-link-btn">
+                    <img src="http://nitpickimg.cafe24.com/comm/icon/logo_twitter.svg" class="twitter" id="twitter-link-btn">
+                    <img src="http://nitpickimg.cafe24.com/comm/icon/logo_blog.svg" class="blog" id="blog-link-btn">
+                </div>
+								<p>테스트 링크 공유하기</p>
+                <div class="link">
+										<!-- 심리테스트 기준 URL (변경시 참조 모두 변경됨) -->
+                    <input type="text" id="myInput" value="http://psy.nitpick.co.kr/psytest/hyundai">
+                    <button id="link-copy-btn">복사하기</button>
+                </div>
+            </div>
+            <button class="test-again" id="retest">테스트 다시하기</button>
+
+						<p style="text-align: center; font-size: 11px; color: #a3a3a3;">Copyright 2020 HYUNDAI GLOVIS co.,ltd all rights reserved.</p> <!-- 20201215 추가 -->
+        </div>
+
+
+			</div>
+		</div>
+
+	<!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+	<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+	<script>
+		$(document).ready(
+				function() {
+						$("#link-copy-btn").click(function() {
+							copyShareLink();
+						});
+						// $("#btn_result_share").click(function() {
+						// 	copyResultLink();
+						// });
+						$("#btn_notice_close").click(function() {
+							$("#contents").hide();
+						});
+						$("#fb-link-btn").click(function() {
+							var url = "http://www.facebook.com/sharer/sharer.php?u="+$("#result_share_link").val();
+							window.open(url,"", "_blank");
+						});
+						$("#twitter-link-btn").click(function() {
+							var url = "http://www.twitter.com/share?url="+$("#result_share_link").val();
+							window.open(url, "","_blank");
+						});
+						$("#blog-link-btn").click(function() {
+							var url = "http://blog.naver.com/openapi/share?url="+$("#result_share_link").val();
+							window.open(url, "","_blank");
+						});
+
+						$(".show-result-btn").click(function() {
+							showResultPage();
+						});
+						$("#retest").click(function() {
+							retest();
+						});
+						$("#btn_event_close").click(function() {
+								$("#event_popup").hide();
+						});
+
+						var currentClickedIndex = -1;
+						var btns = $(".quest-answer");
+						$.each(btns, function(index, value) {
+							$(this).click(
+									function() {
+										var btn = $(this);
+										$(this).parent().parent().fadeOut(300,function(){
+											if(index == currentClickedIndex){
+												return;
+											}
+											var qNo = btn.attr('id');
+											var val = btn.attr('value');
+											addOption(qNo,val);
+											swiper.slideNext();
+											currentClickedIndex = index;
+											if (qNo == 15) {
+												getResultData();
+												showResultBtn();
+											}
+										})
+
+									})
+						});
+					});
+
+		var resultPsyData;
+		var resultPsyType;
+		var option = {
+				speed : 20,
+				duration : 1,
+				stopImageNumber : 0
+			}
+		var optionArr = Array(5).fill(0);
+		function addOption(no, a) {
+			//onsole.log("addOption addOption : " + no + " / " + a);
+			let index = (no - 1) % 5;
+			optionArr[index] = optionArr[index] + parseInt(a);
+			//console.log("addOption index : " + index+", a :"+a);
+			//console.log("addOption optionArr : " + optionArr);
+		}
+		function showResultBtn() {
+			$('.show-result-btn').delay(2000).fadeIn(2000);
+		}
+		function getResultData() {
+			var resultArr = calTestResultHyundai(optionArr);
+			resultPsyType = resultArr[0];
+			var resultPsyTypeOpt = resultArr[1];
+		//	var resultArr = calTestResultHyundai(optionArr);
+			//console.log('resultPsyType==>>'+resultArr[0]+"/"+resultPsyTypeOpt);
+
+			$.ajax({
+				type: 'POST',
+				url: '/psytest/hyundai/result/'+resultPsyType+'/'+resultPsyTypeOpt,
+				/* beforeSend: function(request) {
+					request.setRequestHeader("SSID", ssid);
+				}, */
+				dataType: 'json',
+				success: function(data){ // response is returned by server
+						if(data.resultCode == 200){
+							resultPsyData = data;
+							// console.log("resultPsyData.resultOption.feedback==>>"+data.resultOption.feedback);
+							// console.log("resultPsyData.resultOption.place==>>"+data.resultOption.place);
+							// console.log("resultPsyData.resultOption.color==>>"+data.resultOption.color);
+							// console.log("resultPsyData.resultOption.totalCount==>>"+data.resultOption.totalCount);
+
+						} else {
+							//alert("실패!!\n사유: "+data.resultMsg);
+						}
+				},
+				error: function(response){
+				//alert("실패!!\n사유: "+response);
+				},
+			});
+		}
+		function showResultPage() {
+			$(".swiper-wrapper").hide();
+			resultPsyType=resultPsyType.toUpperCase();
+			$(".result-main").attr("src", 'http://nitpickimg.cafe24.com/psy/6/result_main/'+resultPsyType+".svg");
+			// var count = resultPsyData.resultData.totalCount;
+			// if(count < 500){
+			// 	$("#result_percent").hide();
+			// } else {
+			// 	$("#result_rate").text(resultPsyData.resultData.nRate+"%");
+			// 	$("#result_total_count").text(comma(count));
+			// }
+		//	var result__ = resultPsyData.resultData.sResultMsg;
+		//	var newResult__ = result__.split('\n');
+		//	$("#result_msg").text(newResult__[0]);
+		//	$("#result_name2").text(newResult__[2]);
+
+			$("#result_name").text(resultPsyData.resultData.sName);
+			// $("#result_name_link").text(resultPsyData.resultData.sName);
+			$("#result_title").text(resultPsyData.resultData.sResultTitle);
+			$("#result_title").css("color",resultPsyData.resultOption.color);
+		  $("#result_msg").text(resultPsyData.resultData.sResultMsg);
+			$("#same_type_img").attr("src",'http://nitpickimg.cafe24.com/psy/6/result_main/'+resultPsyData.resultData.sSameType+'.svg');
+			$("#other_type_img").attr("src",'http://nitpickimg.cafe24.com/psy/6/result_main/'+resultPsyData.resultData.sOtherType+'.svg');
+			$("#same_type_name").text(resultPsyData.resultData.sSameTypeName);
+			$("#other_type_name").text(resultPsyData.resultData.sOtherTypeName);
+			$("#result_place").text(resultPsyData.resultOption.place);
+			$("#result_total_count").text(resultPsyData.resultOption.totalCount+'명 중');
+			$("#result_rate").text(resultPsyData.resultData.nRate+'%');
+			$("#result_rate_area").css("background-color",resultPsyData.resultOption.color);
+
+			if(resultPsyData.resultOption.feedback == undefined || resultPsyData.resultOption.feedback ==''){
+				$("#result_feedback_area").hide();
+			} else {
+				$("#result_feedback_area").show();
+				$("#result_feedback").text(resultPsyData.resultOption.feedback);
+				$("#result_feedback_title").css("color",resultPsyData.resultOption.color);
+				$("#result_feedback_bg").css("background-color",resultPsyData.resultOption.color);
+			}
+			$(".result-screen").show();
+			if(resultPsyData.resultOption.eventCode !== undefined){
+				$("#event_popup_msg").text('당첨코드['+resultPsyData.resultOption.eventCode+']과 연락처');
+				$("#event_popup").show();
+			}
+
+			$("#result_share_link").val('http://psy.nitpick.co.kr/psytest/hyundai/result/share/'+resultPsyData.resultOption.resultLogId);
+			$("#result_share_logid").val(resultPsyData.resultOption.resultLogId);
+			Kakao.Link.createCustomButton({
+				container: '#kakao-link-btn',
+				templateId: 12025,
+				templateArgs: {
+					'title': resultPsyData.resultData.sName,
+					'description': '직장 생태계에서 나는 어떤 유형일까?',
+					'resultLogId': resultPsyData.resultOption.resultLogId,
+					'imgUrl': 'http://nitpickimg.cafe24.com/psy/6/result_main/'+resultPsyType+'.jpg',
+				}
+			});
+		}
+
+		//테스트 링크복사
+		function copyShareLink() {
+				/* Get the text field */
+				var copyText = document.getElementById("myInput");
+				/* Select the text field */
+				copyText.select();
+				copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+				/* Copy the text inside the text field */
+				document.execCommand("copy");
+				/* Alert the copied text */
+				alert("공유링크 복사완료 !!");
+			}
+		//결과 링크 복사
+		// function copyResultLink() {
+		// 		/* Get the text field */
+		// 		var copyText = document.getElementById("result_share_link");
+		// 		/* Select the text field */
+		// 		copyText.type = 'text';
+		// 		copyText.select();
+		// 		copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+		// 		/* Copy the text inside the text field */
+		// 		document.execCommand("copy");
+		// 		/* Alert the copied text */
+		// 		copyText.type = 'hidden';
+		//
+		// 		alert("내 결과 링크 복사완료!!");
+		// 	}
+		function retest() {
+			location.href = $("#myInput").val();
+		}
+	</script>
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			cssMode : false,
+		  	on: {
+			    init: function () {
+			      console.log('swiper initialized');
+			    },
+			    // reachEnd: function () {
+			    // 	  //End Page Event
+			    // 	  resultTest();
+				//       console.log('swiper reachEnd');
+				//     },
+			  },
+		      /* pagination: {
+		          el: '.swiper-pagination',
+		          clickable: true,
+		          renderBullet: function (index, className) {
+		            return '<span class="' + className + '">' + (index + 1) + '</span>';
+		          },
+		        }, */
+			navigation : {
+				nextEl : '.swiper-next',
+			},
+			//"slide", "fade", "cube", "coverflow" or "flip"
+			effect : 'slide',
+			//터치로 스크롤 안되게
+			allowTouchMove : false,
+			speed : 800,
+			mousewheel : false,
+			keyboard : false,
+		});
+		// Kakao.Link.createScrapButton({
+	  //     container: '#kakao-link-btn',
+	  //     requestUrl: 'http://psy.nitpick.co.kr/psytest/hyundai'
+	  //   });
+
+	</script>
+
+
+</body>
+</html>
